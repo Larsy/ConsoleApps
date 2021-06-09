@@ -23,16 +23,17 @@ namespace FirstConsoleApp
                 switch (userSelection)
                 {
                     case 1:
-                        Console.WriteLine("Why does java programmers have glasses?\nThey don't se sharp (C#)");
+                        Console.WriteLine("Why does java programmers have glasses?\nThey don't se sharp! (C#)");
                         break;
                     case 2:
+                        Console.WriteLine("Not implemented yet.");
                         break;
                     case 3:
-                        Console.WriteLine("Here you go, a nice cold beer!");
+                        Bartender();
                         break;
                     case 9:
                         Console.WriteLine("Thank's for using this program.");
-                        Console.WriteLine("Prerss any key to close the program.");
+                        Console.WriteLine("Press any key to close the program.");
                         break;
                     default:
                         Console.WriteLine("Not a valid selection");
