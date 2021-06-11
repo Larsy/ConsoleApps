@@ -6,17 +6,16 @@ namespace FirstConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello World!");
-            Console.Write("I love to code!");
+            Console.Write("Hello World!\nI love to code!\n");
 
             int userSelection;
             do
             {
-                Console.WriteLine("---- Menu ----");
+                Console.WriteLine("\n---- Menu ----");
                 Console.WriteLine("1: Code Joke");
                 Console.WriteLine("2: Count down");
                 Console.WriteLine("3: Ask Bartender for a drink");
-                Console.WriteLine("9: Quit");
+                Console.WriteLine("9: Quit\n");
 
                 userSelection = GetNumberFromUser("menu selection");
 
